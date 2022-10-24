@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from 'react';
-const url = "https://newsapi.org/v2/everything?q=bitcoin&apiKey=6ea36a932fed4b7f890c403e81b36077";
+const url = `newsapiLink`;
 const NewsPage = () => {
     const [apiData,setApiData] = useState([]);
     const getUserData = async () => {
